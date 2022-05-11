@@ -1,0 +1,44 @@
+2022-05-11 11:46:38 INFO  AllTests:38 - Test 1 Add new pet
+2022-05-11 11:46:39 INFO  AllTests:40 - Assert 1. Check if added correctly
+2022-05-11 11:46:39 INFO  AllTests:43 - Test 2. Try to get by ID
+2022-05-11 11:46:41 INFO  AllTests:45 - Assert 2. Check if pet Name in store is correct
+2022-05-11 11:46:41 INFO  AllTests:48 - Test 3. Try to get all pets by status 
+2022-05-11 11:46:43 INFO  AllTests:50 - Assert 3. Check if pet id in array
+2022-05-11 11:46:43 INFO  AllTests:54 - Test 4. Try to update pets Name 
+2022-05-11 11:46:44 INFO  AllTests:56 - Assert 4. Check Update of pet is correct
+2022-05-11 11:46:44 INFO  AllTests:59 - Test 5. Try to delete Pet by id
+2022-05-11 11:46:57 INFO  AllTests:61 - Assert 5. Check pet in the store after delete
+2022-05-11 11:47:11 INFO  AllTests:63 - ----------------------------------------
+2022-05-11 11:52:08 INFO  AllTests:38 - Test 1 Add new pet
+2022-05-11 11:52:09 INFO  AllTests:40 - Assert 1. Check if added correctly
+2022-05-11 11:52:09 INFO  AllTests:43 - Test 2. Try to get by ID
+2022-05-11 11:52:11 INFO  AllTests:45 - Assert 2. Check if pet Name in store is correct
+2022-05-11 11:52:11 INFO  AllTests:48 - Test 3. Try to get all pets by status 
+2022-05-11 11:52:13 INFO  AllTests:50 - Assert 3. Check if pet id in array
+2022-05-11 11:52:13 INFO  AllTests:54 - Test 4. Try to update pets Name 
+2022-05-11 11:52:14 INFO  AllTests:56 - Assert 4. Check Update of pet is correct
+2022-05-11 11:52:14 INFO  AllTests:59 - Test 5. Try to delete Pet by id
+2022-05-11 11:52:29 INFO  AllTests:61 - Assert 5. Check pet in the store after delete
+2022-05-11 11:52:43 INFO  AllTests:63 - ----------------------------------------
+2022-05-11 11:59:04 INFO  AllTests:39 - Test 1 Add new pet
+2022-05-11 11:59:06 INFO  AllTests:41 - Assert 1. Check if added correctly
+2022-05-11 11:59:06 INFO  AllTests:44 - Test 2. Try to get by ID
+2022-05-11 11:59:07 INFO  AllTests:46 - Assert 2. Check if pet Name in store is correct
+2022-05-11 11:59:07 INFO  AllTests:49 - Test 3. Try to get all pets by status 
+2022-05-11 11:59:09 INFO  AllTests:51 - Assert 3. Check if pet id in array
+2022-05-11 11:59:09 INFO  AllTests:55 - Test 4. Try to update pets Name 
+2022-05-11 11:59:10 INFO  AllTests:57 - Assert 4. Check Update of pet is correct
+2022-05-11 11:59:10 INFO  AllTests:60 - Test 5. Try to delete Pet by id
+2022-05-11 11:59:24 INFO  AllTests:62 - Assert 5. Check pet in the store after delete
+2022-05-11 11:59:37 INFO  AllTests:64 - ----------------------------------------
+2022-05-11 12:02:25 INFO  AllTests:39 - Test 1 Add new pet
+2022-05-11 12:02:26 INFO  AllTests:41 - Assert 1. Check if added correctly
+2022-05-11 12:02:26 INFO  AllTests:44 - Test 2. Try to get by ID
+2022-05-11 12:02:28 INFO  AllTests:46 - Assert 2. Check if pet Name in store is correct
+2022-05-11 12:02:28 INFO  AllTests:49 - Test 3. Try to get all pets by status 
+2022-05-11 12:02:29 INFO  AllTests:51 - Assert 3. Check if pet id in array
+2022-05-11 12:02:29 INFO  AllTests:55 - Test 4. Try to update pets Name 
+2022-05-11 12:02:31 INFO  AllTests:57 - Assert 4. Check Update of pet is correct
+2022-05-11 12:02:31 INFO  AllTests:60 - Test 5. Try to delete Pet by id
+2022-05-11 12:02:45 INFO  AllTests:62 - Assert 5. Check pet in the store after delete
+2022-05-11 12:02:58 INFO  AllTests:64 - ----------------------------------------
