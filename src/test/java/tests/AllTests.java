@@ -7,6 +7,7 @@ import io.qameta.allure.SeverityLevel;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import steps.Steps;
 import utils.Asserts;
@@ -17,23 +18,27 @@ public class AllTests extends MainTest  implements Asserts {
     Logger log = Logger.getLogger(AllTests.class);
     Steps steps = new Steps();
 
-    @Test(priority = 0, description = "All steps test")
+    @BeforeSuite
+    public void setData()
+    {
+        id = steps.TryToGenerateID(700000, 900000, numberOfAttempts, nullPet); //(min range, max range, number of attempts of checks)
+
+        basePet = new PetObject(id, baseName, availableStatus);
+
+        basePetWithUpdatedName = new PetObject(id, baseName + id, availableStatus);
+
+    }
+
+
+
+
+    @Test(description = "All steps test")
     @Severity(SeverityLevel.BLOCKER)
     @Description("Test included all steps")
 
     public void runAllTest() {
-        final Integer numberOfAttempts = 10;
 
-        final String baseName = "PetBaseName";
-        final String availableStatus = "available";
 
-        final PetObject nullPet = new PetObject(null, null, null);
-
-        String id = steps.TryToGenerateID(700000, 900000, numberOfAttempts, nullPet); //(min range, max range, number of attempts of checks)
-
-        final PetObject basePet = new PetObject(id, baseName, availableStatus);
-
-        final PetObject basePetWithUpdatedName = new PetObject(id, baseName + id, availableStatus);
 
         //Test steps
         log.info("Test 1 Add new pet");
@@ -70,7 +75,7 @@ public class AllTests extends MainTest  implements Asserts {
     public void failedTest()
     {
 
-        Assert.assertEquals("steps.GetPetFromStore()","i");
+        Assert.assertEquals(nullPet,basePet);
     }
 
 }

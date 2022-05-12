@@ -12,7 +12,7 @@ public class Steps implements TestUtils {
 
     @Step("Add new pet {0}")
     public Response AddNewPet(PetObject newPet) {
-        Response response = given()
+        return given()
                 .header("accept", "application/json")
                .header("Content-Type", "application/json")
                 .body(ToJson(newPet))
@@ -20,7 +20,6 @@ public class Steps implements TestUtils {
                 .then()
                 .extract()
                 .response();
-        return response;
     }
 
 
@@ -29,7 +28,7 @@ public class Steps implements TestUtils {
 
     @Step("Update pet Name by Id {0}")
     public Response UpdatePet(PetObject pet) {
-        Response response = given()
+        return given()
                 .header("accept", "application/json")
                 .header("Content-Type", "application/json")
                 .body(ToJson(pet))
@@ -37,7 +36,6 @@ public class Steps implements TestUtils {
                 .then()
                 .extract()
                 .response();
-        return response;
     }
 
 
@@ -70,8 +68,5 @@ public class Steps implements TestUtils {
             DeletePetByID(testPet.getId()); //delete
         }
     }
-
-
-
 
 }
